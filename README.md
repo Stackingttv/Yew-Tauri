@@ -10,7 +10,12 @@ cargo install wasm-bindgen-cli
 ## Setup Tauri
 ### install the Tauri cli
 ```
-cargo tauri init
+cargo install tauri-cli --locked --version "^1.0.0-rc"
+```
+
+### Check to make sure Tauri is installed properly
+```
+cargo tauri info
 ```
 
 ## Run the project
